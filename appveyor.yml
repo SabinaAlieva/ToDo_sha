@@ -1,14 +1,18 @@
 version: 1.0.{build}
-image: Visual Studio 2017
+
+image: 
+- Ubuntu
+- Visual Studio 2017
+
+install:
+- pip install --user -r requirements.txt
 
 platform:
   - x86
 
 before_build:
-- nuget restore
+  - nuget restore
 
 build:
   project: ToDo.sln
 
-test_script:
-  - dotnet test
