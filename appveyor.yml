@@ -8,5 +8,4 @@ build:
   project: ToDo.sln
 
 test_script:
-  - cd Tests
   - dotnet test
