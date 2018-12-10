@@ -4,9 +4,6 @@ image:
 - Ubuntu
 - Visual Studio 2017
 
-install:
-- pip install -r requirements.txt
-
 platform:
   - x86
 
