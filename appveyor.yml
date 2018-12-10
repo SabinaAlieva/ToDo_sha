@@ -4,9 +4,6 @@ image:
 - Ubuntu
 - Visual Studio 2017
 
-platform:
-  - x64
-
 before_build:
   - nuget restore
 
