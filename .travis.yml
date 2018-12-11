@@ -3,7 +3,7 @@ language: cpp
 install:
   - echo "deb http://download.mono-project.com/repo/ubuntu stable-trusty main" | sudo tee --append /etc/apt/sources.list.d/mono-official-stable.list
   - sudo apt-get update 
-  - sudo apt-get install -y mono-complete zip 
+  - sudo apt-get install -y --allow-unauthenticated mono-complete zip 
   
 os:
   - linux 
